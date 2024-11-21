@@ -1,7 +1,7 @@
 # Linux-Custom_shell
 Welcome to our Custom Shell ! This is a simple shell implementation written in C that mimics the behavior of a command-line interface (CLI) with several built-in commands for file management, system information, and more.
 
-Features
+# Features
 Directory Management: Change directories (cd), list files (list), and create new files/folders (create).
 File Operations: Copy (copy), move (move), rename (rename), and delete (delete) files.
 System Information: Check CPU usage (cpu), disk usage (diskusage), and find file size (findsize).
@@ -9,7 +9,7 @@ File Search: Search for a file by name within the current directory.
 Text File Creation: Create files directly from user input (create_from_text).
 File Merging: Merge the contents of two files into one (merge).
 User-Friendly Interface: Displays a welcoming message with available commands.
-Commands
+# Commands
 Below is the list of available commands you can use in this custom shell:
 
 cd <directory>: Change the working directory.
@@ -26,37 +26,18 @@ search <file>: Search for a file by name within the current directory.
 diskusage: Display disk usage of the system.
 merge <file1> <file2>: Merge two files into one.
 create_from_text: Create a file from user input text.
-Installation
+# Installation
 Clone this repository to your local machine:
 
-bash
-Copy code
 git clone https://github.com/yourusername/custom-shell.git
 cd custom-shell
 Compile the project:
-
-bash
-Copy code
 gcc -o myshell myshell.c
 Run the shell:
-
-bash
-Copy code
 ./myshell
-Usage
+# Usage
 Once the shell is running, you can use the various commands as listed above. To exit the shell, type exit.
 
-Example Commands:
-bash
-Copy code
-cd /home/user/Documents
-list
-create file newfile.txt
-delete oldfile.txt
-cpu
-findsize myfile.txt
-search myfile.txt
-diskusage
-Contributions
+# Contributions
 Feel free to fork the repository and contribute to the project by opening pull requests or reporting issues.
 
