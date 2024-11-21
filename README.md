@@ -1,5 +1,6 @@
 # Linux-Custom_shell
-Welcome to our Custom Shell ! This is a simple shell implementation written in C that mimics the behavior of a command-line interface (CLI) with several built-in commands for file management, system information, and more.
+Welcome to our Custom Shell ! 
+This is a simple shell implementation written in C that mimics the behavior of a command-line interface (CLI) with several built-in commands for file management, system information, and more.
 
 # Features
 Directory Management: Change directories (cd), list files (list), and create new files/folders (create).
@@ -52,11 +53,17 @@ create_from_text: Create a file from user input text.
 Clone this repository to your local machine:
 
 git clone https://github.com/yourusername/custom-shell.git
+
 cd custom-shell
+
 Compile the project:
+
 gcc -o myshell myshell.c
+
 Run the shell:
+
 ./myshell
+
 # Usage
 Once the shell is running, you can use the various commands as listed above. To exit the shell, type exit.
 
